@@ -1,0 +1,54 @@
+body {
+  background-color: aqua;
+  font-family: 'K2D', sans-serif;
+}
+
+h1 {
+  margin: 30px auto 10px auto;
+  font-weight: bold;
+}
+
+#description {
+  margin: 10px auto;
+  font-weight: bold;
+}
+
+form {
+  background-color: steelblue;
+  width: 80%;
+  margin: 10px auto 20px auto;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+textarea {
+ width: 100%;
+}
+
+#submit {
+  border-color: steelblue;
+  background-color: lightsteelblue;
+  marg
+ }
+
+#checkbox {
+  margin-top: 10px;
+}
+
+#random {
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+#radio {
+  margin-top: 20px;
+}
+
+#radio-options {
+  margin-top: -15px;
+}
+
+#suggestions {
+  margin-bottom: -15px;
+}
