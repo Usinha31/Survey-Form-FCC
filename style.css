@@ -1,5 +1,5 @@
 body {
-  background-color: aqua;
+  background-color: CornflowerBlue;
   font-family: 'K2D', sans-serif;
 }
 
@@ -20,17 +20,12 @@ form {
   padding: 10px 20px;
   color: white;
   border-radius: 5px;
+  box-shadow: 10px 15px 18px #2980b9;
 }
 
 textarea {
  width: 100%;
 }
-
-#submit {
-  border-color: steelblue;
-  background-color: lightsteelblue;
-  marg
- }
 
 #checkbox {
   margin-top: 10px;
@@ -51,4 +46,27 @@ textarea {
 
 #suggestions {
   margin-bottom: -15px;
+}
+
+#submit {
+  border-color: steelblue;
+  background-color: lightsteelblue;
+ }
+
+#submit:hover {
+  background-color: steelblue;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 480px) {
+  #number, #name, #email, #dropdown {font-size: 13px;}
+  
 }
